@@ -1,4 +1,3 @@
-function (){
   const titles = [
     "Software Engineer",
     "Performance Advocate",
@@ -32,4 +31,3 @@ function (){
       });
     }, 40);
   }
-}()
