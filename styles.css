@@ -1,86 +1,81 @@
-html,body{
-  margin:0;
-  padding:0;
-  font-family:"Roboto",Arial,Helvetica,sans-serif;
-  font-size:16px
+body {
+  font-family :   "Palatino Linotype","Book Antiqua", Palatino, Georgia, "Times New Roman", times, serif; 
+  background  :   #f6efe1; 
+  color       :   #333; 
+  text-align  :   center; 
+  font-size   :   100%; 
+  line-height :   1.5em;
 }
 
-b,a{
-  font-family:"Roboto Mono",
-  Arial,Helvetica,sans-serif
+#frame {
+  text-align: left; 
+  width: 48em; 
+  margin: 3em auto; 
+  background: #fdf8f4; 
+  padding: 2em 6em; 
+  border-top: 2em solid #252421; 
+  position: relative;
 }
 
-b#dev{
-  font-family:"Roboto Mono"
+p {
+  line-height: 1.5em; 
+  margin: 0 0 1.5em;
+  }	
+
+a {
+  text-decoration: none; 
+  color: #333; 
+  background: #FFF; 
+  border-bottom: 2px solid #f5dfac;
+  }
+
+a:hover {
+  color: #333; 
+  background: #f8efd4; 
+  border: none;
+  }
+
+h1 {
+  font-size: 2.5em; 
+line-height: 1em; 
+margin: 1.111em 0 .3em; 
+font-weight: bold;
 }
 
-h1,h2,h3,h4,h5{
-  font-weight:100
+h2 {
+font-size: 2em; 
+line-height: 1.25em; 
+margin: 1.125em 0 .375em; 
+font-weight: normal;
 }
 
-a{
-  color:#1a1a1a;
-  text-decoration:none;
-  padding-right:.2em
+h3 {
+font-size: 1.5em; 
+line-height: 1.25em; 
+margin: 1.5em 0 .5em; 
+font-weight: bold;
 }
 
-a:visited{
-  color:#4d4d4d
-}
-
-a:hover{
-  color:#808080
-}
-
-body{
-  margin:0 auto;
-  padding:1rem
-}
-
-.page-title{
-  font-size:3rem;margin-top:4rem
-}
+acronym {
+  font-variant: small-caps; 
+  text-transform: lowercase; 
+  font-weight: bold;
+  }
   
-.animate{
-  opacity:0;
-  -webkit-animation-name:show;
-  animation-name:show;
-  -webkit-animation-duration:.5s;
-  animation-duration:.5s;
-  -webkit-animation-delay:500ms;
-  animation-delay:500ms;
-  -webkit-animation-fill-mode:forwards;
-  animation-fill-mode:forwards
-}
-
-@media (min-width:768px){
-  body{
-    max-width:700px
-  }
-}
-
-@media (min-width:992px){
-  body{
-    max-width:900px
+.clear {
+  clear: both;
   }
 
-.page-title{
-  margin-top:20vh;
-  font-size:4rem}
-}
-
-@media (min-width:1200px){
-  body{
-    max-width:1150px
+#resume h2 {
+  font-size: 1.25em; 
+  letter-spacing: 0.2em; 
+  color: #999; 
+  margin: 1.5em 0 0; 
+  text-transform: lowercase; 
+  font-variant: small-caps;
   }
-}
 
-@-webkit-keyframes show{
-  from{opacity:0}
-  to{opacity:1}
-}
-
-@keyframes show{
-  from{opacity:0}
-  to{opacity:1}
-}
+#resume h3 {
+  margin: 0.5em 0 0.5em; 
+  text-transform: capitalize;
+  }
